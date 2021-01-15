@@ -1,0 +1,42 @@
+.header-buttons {
+    right: 0.5%;
+    top: 1%;
+    position: fixed;
+}
+.btn {
+    background-color: #0000ff;
+    color: white;
+    font-size: 15px;
+}
+#signIn{
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+#signUp{
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.logo {
+    font-family: 'Montez', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: #0000ff;
+    margin: 0;
+    position: relative;
+    left: 20px;
+    width: 50%;
+}
+.tagLine {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    left: 20px;
+    width: 80%;
+}
