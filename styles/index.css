@@ -19,7 +19,7 @@ body {
     width: 100%;
 }
 
-/* Sign Up Modal */
+/* Modal */
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -30,8 +30,8 @@ body {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(15, 15, 15, 0.932); /* Fallback color */
+    background-color: rgba(15, 15, 15, 0.4); /* Black w/ opacity */
   }
   
   /* Modal Content */
@@ -44,15 +44,15 @@ body {
   }
   
   /* The Close Button */
-  .closeSU {
+  .close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
   
-  .closeSU:hover,
-  .closeSU:focus {
+  .close:hover,
+  .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
@@ -86,8 +86,9 @@ body {
    padding: 15px;
    border: none;
    background-color: #f1f1f1;
+   font-size: 15px;
  }
-  #btnSU {
+  #btnSUSI {
     background-color: #0ec038;
     color: white;
     font-size: 20px;
@@ -100,15 +101,32 @@ body {
     transform: translate(-50%);
     cursor: pointer;
   }
-  #txtSU{
+  #txtSUSI{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
   }
-  #txt{
+  .txt{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 15px;
-  
+
   }
+  #nonMember {
+      text-align: center;
+      margin-top: 30px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+  }
+  #linkSU {
+      color: blue;
+  }
+  #linkSU:hover,
+  #linkSU:focus {
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+

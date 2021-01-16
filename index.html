@@ -25,22 +25,39 @@
             </div>
         </div>
         
-        <!-- Modal for Sign Up button-->
+        <!-- Modal for Sign Up-->
         <div id="signUpModal" class="modal">
             <div class="modal-content">
-                <span class="closeSU">&times;</span>
-                <h1 id="txtSU">Get Started</h1>
+                <span class="close" id="closeSU">&times;</span>
+                <h1 id="txtSUSI">Get Started</h1>
                 <form>
-                    <h3 id="txt">Full Name</h3>
+                    <h3 class="txt">Full Name</h3>
                     <input type="text" placeholder="Enter Full Name" required>
-                    <h3 id="txt">Username</h3>
+                    <h3 class="txt">Username</h3>
                     <input type="text" placeholder="Enter Username" required>
-                    <h3 id="txt">Password</h3>
+                    <h3 class="txt">Password</h3>
                     <input type="password" placeholder="Enter Password" required>
-                    <h3 id="txt">Confirm Password</h3>
+                    <h3 class="txt">Confirm Password</h3>
                     <input type="password" placeholder="Confirm Password" required>
                     <br>
-                    <button id="btnSU">Sign Up</button>
+                    <button id="btnSUSI">Sign Up</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Modal for Sign In-->
+        <div id="signInModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeSI">&times;</span>
+                <h1 id="txtSUSI">Welcome Back!</h1>
+                <form>
+                    <h3 class="txt">Username</h3>
+                    <input type="text" placeholder="Enter your username" required>
+                    <h3 class="txt">Password</h3>
+                    <input type="password" placeholder="Enter your password" required>
+                    <br>
+                    <button id="btnSUSI">Sign In</button>
+                    <p id="nonMember">Not a member? <span id="linkSU">Sign Up</span></p>
                 </form>
             </div>
         </div>
