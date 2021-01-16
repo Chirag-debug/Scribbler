@@ -143,6 +143,7 @@ body {
       padding-bottom: 15px;
       padding-left: 22px;
       padding-right: 22px;
+      cursor: pointer;
   }
   #bodyBtn2 {
     background-color: #cfb53b;
@@ -151,15 +152,16 @@ body {
     font-size: 15px;
     font-weight: bold;
     padding: 15px;
+    cursor: pointer;
 }
 
 /* Modal Content for Create Post*/
 .modal-content-CP {
     background-color: #fefefe;
     margin: 10% auto;
-    padding: 25px;
+    padding: 15px;
     border: 1px solid #888;
-    width: 80%;
+    width: 70%;
   }
   #txtCP {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
