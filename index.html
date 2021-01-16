@@ -63,7 +63,26 @@
         </div>
         
         <div class="homepage-container">
+            <div class="body-buttons">
+                <button class="bodyBtn" id="bodyBtn1" onclick="window.location.href= 'html/bloglist.html'">All Posts</button>
+                <button class="bodyBtn" id="bodyBtn2">Create Post</button>
+            </div>
+        </div>
 
+        <!-- Modal for Create Post-->
+        <div id="createPostModal" class="modal">
+            <div class="modal-content-CP">
+                <span class="close" id="closeCP">&times;</span>
+                <h1 id="txtCP">Pen Your Post</h1>
+                <form>
+                    <h3 class="txt">Title</h3>
+                    <input type="text" placeholder="Enter title of your post" required>
+                    <h3 class="txt">Contents</h3>
+                    <input type="textbox" id = "postContent"  placeholder="Enter the contents of your post" required>
+                    <br>
+                    <button id="btnCP">Create</button>
+                </form>
+            </div>
         </div>
     </div>
     
