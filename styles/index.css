@@ -58,3 +58,31 @@ body {
    vertical-align: top;
    text-align: left;
  }
+
+ /* Index Body Buttons */
+ .body-buttons {
+  left: 45%;
+  top: 45%;
+  position: fixed;
+}
+ #bodyBtn1 {
+  background-color: #cfb53b;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 22px;
+  padding-right: 22px;
+  cursor: pointer;
+}
+#bodyBtn2 {
+background-color: #cfb53b;
+color: black;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+padding: 15px;
+cursor: pointer;
+}

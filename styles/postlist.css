@@ -1,4 +1,160 @@
-.segment {
-    width: 50px;
-    height: 10px;
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 1% !important;
+    background-color: #ffeedd;
+    background-size: 2000% 2000%;
+}
+.post-segment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    scroll-padding-top: 20px;
+}
+.container {
+
+    position: relative;
+    width: 45%;
+    height: 18%;
+    left: 15px;
+    right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    
+}
+
+.left-container {
+    width: 15%;
+    max-width: 15%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    color: #787a7d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    background-color: white;
+    border-radius: 15px 0 0 15px;
+    overflow: auto;
+}
+
+.right-container {
+    width: 75%;
+    display: table-cell;
+    text-align: left;
+    border-radius: 0 15px 15px 0;
+    background-color: #e8e8e8;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.post-title {
+    color: #787a7d;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.postdesc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    height: 57px;
+    overflow: hidden;
+}
+
+.delete {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #787a7d;
+}
+.delete:hover,
+.delete:focus {
+    color:black;
+    cursor: pointer;
+}
+.ellipsis {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    color: #787a7d;
+}
+.ellipsis :hover,
+.ellipsis :focus {
+    cursor: pointer;
+    color: black;
+}
+
+/* Delete Modal */
+.modal-content-delpost {
+    position: fixed;
+    left: 35%;
+    right: 65%;
+    top: 35%;
+    background-color: #fefefe;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 28%;
+  }
+#close-dialog {
+    color: #aaaaaa;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+#close-dialog:hover,
+#close-dialog:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#txtDelPost {
+    top: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#delpostBtns {
+  left: 45%;
+  top: 45%;
+  position: fixed;
+}
+#yesBtn {
+    left: 20px;
+    color: white;
+    border: transparent;
+    font-size: 15px;
+    background-color: green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+#noBtn {
+    right: 20px;
+    color: white;
+    border: transparent;
+    font-size: 15px;
+    background-color: red;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
 }
