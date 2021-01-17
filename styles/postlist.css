@@ -98,31 +98,19 @@ body {
     color: black;
 }
 
-/* Delete Modal */
+/* Delete Post Modal */
 .modal-content-delpost {
     position: fixed;
-    left: 35%;
-    right: 65%;
-    top: 35%;
+    height: 100px;
+    width: 330px;
     background-color: #fefefe;
     padding: 10px;
     border: 1px solid #888;
-    width: 28%;
-    height: 14%;
-  }
-#close-dialog {
-    color: #aaaaaa;
-    position: absolute;
-    top: 3px;
-    right: 10px;
-    font-size: 28px;
-    font-weight: bold;
-  }
-#close-dialog:hover,
-#close-dialog:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+    left: 40%;
+    right: 45%;
+    top: 35%;
+    align-items: center;
+    
   }
 
 #txtDelPost {
@@ -132,37 +120,43 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
+.modal-header {
+    width: 330px;
+}
 
-#delpostBtns {
-  left: 45%;
-  top: 45%;
-  position: fixed;
-  /* align-items: left; */
-  
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    
+    /* justify-content: space-evenly; */
+    /* justify-content: left; */
+    /* justify-items: start; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    width: 330px;
 }
 #yesBtn {
-    
-    color: white;
-    border: transparent;
-    font-size: 15px;
-    background-color: green;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5eb762;
+    color: white;
+    border-color: transparent;
     cursor: pointer;
-    margin-right: 60px;
 }
 #noBtn {
-    
-    color: white;
-    border: transparent;
-    font-size: 15px;
-    background-color: red;
     padding-left: 22px;
     padding-right: 22px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #d13939;
+    color: white;
+    border-color: transparent;
     cursor: pointer;
-    
 }
+#noBtn:hover,
+#yesBtn:hover {
+    box-shadow: 0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+}
+

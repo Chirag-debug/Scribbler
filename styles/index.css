@@ -48,6 +48,7 @@ body {
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
+    border-color: unset;
   }
   input[type=textarea] {
    width: 100%;
@@ -76,6 +77,8 @@ body {
   padding-left: 22px;
   padding-right: 22px;
   cursor: pointer;
+  border-color:yellow;
+  margin-right: 10px;
 }
 #bodyBtn2 {
 background-color: #cfb53b;
@@ -85,4 +88,6 @@ font-size: 15px;
 font-weight: bold;
 padding: 15px;
 cursor: pointer;
+border-color: yellow;
+scroll-margin-left: 10px;
 }
