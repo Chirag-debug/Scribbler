@@ -2,25 +2,79 @@
 <html>
 
 <head>
+    <title>ScriBBler</title>
+    <link href='..\styles\postlist.css' rel='stylesheet' type='text/css'>
+    <link href='..\styles\common.css' rel='stylesheet' type='text/css'>
     <!-- TODO: Include Font Awesome file here -->
+    <script src="https://kit.fontawesome.com/3a11080fd4.js" crossorigin="anonymous"></script>
     <!-- TODO: Include Google Fonts file here -->
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- TODO: Include code for header here -->
+    <div class="main">
+        <div class="header-container">
+            <div class="logo">ScriBBler</div>
+            <div class="tagLine">Explore, Imagine, Create</div>
+            <div class="header-buttons">
+                <button class="btn" id="signIn">Sign In</button>
+                <button class="btn" id="signUp">Sign Up</button>
+            </div>
+        </div>
+        
+        <!-- Modal for Sign Up-->
+        <div id="signUpModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeSU">&times;</span>
+                <h1 id="txtSUSI">Get Started</h1>
+                <form>
+                    <h3 class="txt">Full Name</h3>
+                    <input type="text" placeholder="Enter Full Name" required>
+                    <h3 class="txt">Username</h3>
+                    <input type="text" placeholder="Enter Username" required>
+                    <h3 class="txt">Password</h3>
+                    <input type="password" placeholder="Enter Password" required>
+                    <h3 class="txt">Confirm Password</h3>
+                    <input type="password" placeholder="Confirm Password" required>
+                    <br>
+                    <button id="btnSUSI">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Modal for Sign In-->
+        <div id="signInModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeSI">&times;</span>
+                <h1 id="txtSUSI">Welcome Back!</h1>
+                <form>
+                    <h3 class="txt">Username</h3>
+                    <input type="text" placeholder="Enter your username" required>
+                    <h3 class="txt">Password</h3>
+                    <input type="password" placeholder="Enter your password" required>
+                    <br>
+                    <button id="btnSUSI">Sign In</button>
+                    <p id="nonMember">Not a member? <span id="linkSU">Sign Up</span></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    
 
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
     <!-- list of all posts starts here -->
-    <div>
+    <div class="segment">
 
         <!-- post 1 starts here -->
-        <div>
-            <div>
+        <div class="container">
+            <div class="left-container">
                 <p>Srishti Gupta</p>
             </div>
 
-            <div>
+            <div class="right-container">
                 <div>
                     <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
                     <span>
@@ -125,6 +179,10 @@
 
     </div>
     <!-- list of all posts ends here -->
+
+    <!-- Java Scripts -->
+    <script src="..\scripts\common.js"></script>
+    <script src="..\scripts\postlist.js"></script>
 </body>
 
 </html>

@@ -18,143 +18,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
-/* Modal */
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(15, 15, 15, 0.932); /* Fallback color */
-    background-color: rgba(15, 15, 15, 0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 10% auto;
-    padding: 25px;
-    border: 1px solid #888;
-    width: 30%;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  form {
-    border-top: 1px solid black;
-    width: 90%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    top:0px;
-    padding: 0%;
-    margin: 0%;
-  }
-  input[type=text] {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #f1f1f1;
-  }
-  input[type=password] {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color:#f1f1f1;
-  }
-  input[type=text]
- {
-   width: 100%;
-   padding: 15px;
-   border: none;
-   background-color: #f1f1f1;
-   font-size: 15px;
- }
-  #btnSUSI {
-    background-color: #0ec038;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    padding: 12px;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%);
-    cursor: pointer;
-  }
-  #txtSUSI{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-    text-align: left;
-    padding-left: 20px;
-  }
-  .txt{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-
-  }
-  #nonMember {
-      text-align: center;
-      margin-top: 30px;
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 12px;
-  }
-  #linkSU {
-      color: blue;
-  }
-  #linkSU:hover,
-  #linkSU:focus {
-      font-weight: bold;
-      cursor: pointer;
-  }
-  .body-buttons {
-      left: 45%;
-      top: 45%;
-      position: fixed;
-  }
-  #bodyBtn1 {
-      background-color: #cfb53b;
-      color: black;
-      text-align: center;
-      font-size: 15px;
-      font-weight: bold;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-left: 22px;
-      padding-right: 22px;
-      cursor: pointer;
-  }
-  #bodyBtn2 {
-    background-color: #cfb53b;
-    color: black;
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 15px;
-    cursor: pointer;
-}
-
 /* Modal Content for Create Post*/
 .modal-content-CP {
     background-color: #fefefe;
@@ -186,12 +49,12 @@ body {
     transform: translate(-50%);
     cursor: pointer;
   }
-  input[type=textbox] {
+  input[type=textarea] {
    width: 100%;
    padding: 15px;
    border: none;
    background-color: #f1f1f1;
    font-size: 15px;
+   vertical-align: top;
+   text-align: left;
  }
-
-
