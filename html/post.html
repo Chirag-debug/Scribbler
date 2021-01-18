@@ -78,10 +78,6 @@
                 </div>
             </div>
 
-            <!--
-                
-            -->
-
             <div class="like-container">
                 <div class="post-btn" >
                     <button id="like-btn">
@@ -93,23 +89,15 @@
                 </div>
             </div>
 
-            <div class="new-comment-container">
-                <div class="comment-box">
-                    <input type="textbox">
+            <div class="commentPost">
+                <textarea id="commentText" class="commentPost" rows="4" cols="100" placeholder="Leave a comment"></textarea>
+            </div>
+            <button class="postLike" onclick="addComment()">Comment</button>
+            <div class="commentSection">
+                <h3>All Comments</h3>
+                <div class="allComments" id="listAllComments">
+                    
                 </div>
-                <div class="post-btn">
-                    <button id="comment-btn">Comment</button>
-                </div>
-                <div class="comment-list">
-                    <div id="comment-list-title">
-                        <h5>All Comments</h5>
-                    </div>
-                    <div class="all-comment-list">
-                        Append Child DOM
-                    </div>
-                </div>
-        
-    
             </div>
         
       

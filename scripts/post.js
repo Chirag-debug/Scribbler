@@ -27,3 +27,12 @@ function postDynamic() {
     document.getElementById("post-details").innerHTML = template;
     
 }
+
+function addComment(){
+  
+    var txt = document.getElementById("commentText").value;
+    
+    var element = '<p >'+ txt + '</p>';
+    var div = document.getElementById('listAllComments');
+    div.innerHTML = element + div.innerHTML;
+  }
