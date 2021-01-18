@@ -1,0 +1,9 @@
+.post-body {
+    background-color: white;
+    background-size: cover;
+    margin: 0% !important;
+    background-size: 100%;
+    overflow:hidden;
+    display: block;
+    height: 100%;
+}

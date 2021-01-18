@@ -2,7 +2,7 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-    margin: 1% !important;
+    margin: 0% !important;
     background-color: #ffeedd;
     background-size: 2000% 2000%;
 }

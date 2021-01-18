@@ -5,7 +5,7 @@ html {
 body {
     background: url('../images/background.jpg') no-repeat fixed center center;
     background-size: cover;
-    margin: 0 !important;
+    margin: 0% !important;
     background-size: 100%;
     overflow:hidden;
     display: block;

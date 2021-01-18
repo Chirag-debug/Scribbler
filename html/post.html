@@ -1,1 +1,122 @@
-Blank
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ScriBBler</title>
+        <link href='..\styles\post.css' rel='stylesheet' type='text/css'>
+        <link href='..\styles\common.css' rel='stylesheet' type='text/css'>
+        <!-- TODO: Include Font Awesome file here -->
+        <script src="https://kit.fontawesome.com/3a11080fd4.js" crossorigin="anonymous"></script>
+        <!-- TODO: Include Google Fonts file here -->
+        <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montez&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body class="post-body">
+        <div class="main">
+            <div class="header-container">
+                <div class="logo">ScriBBler</div>
+                <div class="tagLine">Explore, Imagine, Create</div>
+                <div class="header-buttons">
+                    <button class="btn" id="signIn">Sign In</button>
+                    <button class="btn" id="signUp">Sign Up</button>
+                </div>
+            </div>
+            
+            <!-- Modal for Sign Up-->
+            <div id="signUpModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeSU">&times;</span>
+                    <h1 id="txtSUSI">Get Started</h1>
+                    <form>
+                        <h3 class="txt">Full Name</h3>
+                        <input type="text" placeholder="Enter Full Name" required>
+                        <h3 class="txt">Username</h3>
+                        <input type="text" placeholder="Enter Username" required>
+                        <h3 class="txt">Password</h3>
+                        <input type="password" placeholder="Enter Password" required>
+                        <h3 class="txt">Confirm Password</h3>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <br>
+                        <button id="btnSUSI">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Modal for Sign In-->
+            <div id="signInModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeSI">&times;</span>
+                    <h1 id="txtSUSI">Welcome Back!</h1>
+                    <form>
+                        <h3 class="txt">Username</h3>
+                        <input type="text" placeholder="Enter your username" required>
+                        <h3 class="txt">Password</h3>
+                        <input type="password" placeholder="Enter your password" required>
+                        <br>
+                        <button id="btnSUSI">Sign In</button>
+                        <p id="nonMember">Not a member? <span id="linkSU">Sign Up</span></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post HTML Code-->
+
+        <div class="main-post-container">
+
+            <div class="post-container" id="post-details">
+                <div class="title-container">
+                    <h2>Sample Title</h2>
+                </div>
+                <div class="post-btn">
+                    <button id="edit-btn">Edit</button>
+                </div>
+                <div class="author">
+                    <h4>Chirag</h4>
+                </div>
+                <div class="body-container">
+                    <p>Chirag's sample post</p>
+                </div>
+            </div>
+
+            <!--
+                
+            -->
+
+            <div class="like-container">
+                <div class="post-btn" >
+                    <button id="like-btn">
+                        <i class="fa fa-thumbs-up" style="font-size:18px">Like</i>
+                    </button>
+                </div>
+                <div class="like-count-statement">
+    
+                </div>
+            </div>
+
+            <div class="new-comment-container">
+                <div class="comment-box">
+                    <input type="textbox">
+                </div>
+                <div class="post-btn">
+                    <button id="comment-btn">Comment</button>
+                </div>
+                <div class="comment-list">
+                    <div id="comment-list-title">
+                        <h5>All Comments</h5>
+                    </div>
+                    <div class="all-comment-list">
+                        Append Child DOM
+                    </div>
+                </div>
+        
+    
+            </div>
+        
+      
+    
+
+        <!-- Java Scripts -->
+        <script src="..\scripts\common.js"></script>
+        <script src="..\scripts\post.js"></script>
+    </body>
+</html>

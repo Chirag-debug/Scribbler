@@ -14,3 +14,14 @@ function deleteCard(card) {
         delModal.style.display = "none";
     }
 }
+
+function loadData(card, author, title, description) {
+
+
+    localStorage.setItem('title', title.innerHTML);
+    localStorage.setItem('author', author.innerHTML);
+    localStorage.setItem('description', description.innerHTML);
+
+    
+    location.href = "post.html";
+}
