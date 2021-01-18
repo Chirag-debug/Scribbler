@@ -15,15 +15,14 @@ function postDynamic() {
     '<button id="edit-btn">Edit</button>'+
     
     '</div>'+
-    postAuthor +
-    '<div class="author">'+
     
+    '<div class="author" id="autr">'+
+    postAuthor +
     '</div>'+
     '<div class="body-container">'+
     postDescription +
     '</div>';
 
-    
     document.getElementById("post-details").innerHTML = template;
     
 }
@@ -36,3 +35,5 @@ function addComment(){
     var div = document.getElementById('listAllComments');
     div.innerHTML = element + div.innerHTML;
   }
+
+

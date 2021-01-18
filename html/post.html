@@ -68,20 +68,22 @@
                     <h2>Sample Title</h2>
                 </div>
                 <div class="post-btn">
-                    <button id="edit-btn">Edit</button>
+                    <button id="edit-btn">Edit <i class="fa fa-pencil-square-o" style="font-size:18px"></i> </button>
                 </div>
                 <div class="author">
-                    <h4>Chirag</h4>
+                    <h4 id="autr">Chirag</h4>
                 </div>
                 <div class="body-container">
                     <p>Chirag's sample post</p>
                 </div>
             </div>
 
-            <div class="like-container">
+            <!-- Like Section-->
+
+            <div class="likeContainer">
                 <div class="post-btn" >
-                    <button id="like-btn">
-                        <i class="fa fa-thumbs-up" style="font-size:18px">Like</i>
+                    <button id="like-btn" onclick="addLike()">
+                        <i class="fa fa-thumbs-up" style="font-size:15px"><span style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> Like</span></i>
                     </button>
                 </div>
                 <div class="like-count-statement">
@@ -89,12 +91,14 @@
                 </div>
             </div>
 
+            <!-- Comment Functionality-->
+
             <div class="commentPost">
                 <textarea id="commentText" class="commentPost" rows="4" cols="100" placeholder="Leave a comment"></textarea>
             </div>
-            <button class="postLike" onclick="addComment()">Comment</button>
+            <button class="comment-box" onclick="addComment()">Comment</button>
             <div class="commentSection">
-                <h3>All Comments</h3>
+                <h3 id="comment-heading">All Comments</h3>
                 <div class="allComments" id="listAllComments">
                     
                 </div>

@@ -6,4 +6,104 @@
     overflow:hidden;
     display: block;
     height: 100%;
+    overflow: scroll;
 }
+
+
+
+.title-container {
+    color:#787a7d;
+    position: fixed;
+    left: 33%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.author {
+    position: fixed;
+    top: 180px;
+    color:#787a7d;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;;
+    left: 6%;
+}
+.body-container {
+    position: fixed;
+    top: 230px;
+    color:#787a7d;
+    left: 6%;
+    right: 6%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#commentText {
+    position: relative;
+    top: 240px;
+    left: 6%;
+}
+.comment-box {
+    position: relative;
+    top: 240px;
+    background-color: #ed2553;
+    box-shadow: 0px 5px 12px -4px #ed2553;
+    color: white;
+    border-color: transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    left: 6%;
+}
+.commentSection{
+    position: relative;
+    top: 240px;
+    left: 6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#listAllComments {
+    left: 6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#edit-btn {
+    right: 6%;
+    top: 170px;
+    position: fixed;
+    background-color: #ed2553;
+    box-shadow: 0px 5px 12px -4px #ed2553;
+    color: white;
+    border-color: transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.likeContainer {
+    left: 6%;
+    position: relative;
+    top: 230px
+}
+#like-btn {
+    background-color: #ed2553;
+    box-shadow: 0px 5px 12px -4px #ed2553;
+    color: white;
+    border-color: transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    left: 6%;
+}
+
+
+
