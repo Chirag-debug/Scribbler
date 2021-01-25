@@ -45,6 +45,8 @@ function addComment(){
       div.innerHTML = newCount;
   }
 
+
+  //adding edit funtionality
   function editPost() {
 
       var edit = '<button id="editBtn" >Edit  <i class="fa fa-pencil-square-o" style="font-size:18px"></i> </button>';
@@ -64,7 +66,7 @@ function addComment(){
         updateContent();
       }
   }
-//adding edit funtionality
+
   function enableEdit(){
 
     var postTitle = (document.getElementById('post-title').innerHTML).toString();
@@ -98,28 +100,30 @@ function addComment(){
 
   function updateContent(){
 
-    var editedTitle = (document.getElementById('txtTitleId').innerHTML).toString();
-    var editedAuthor = (document.getElementById('txtAuthorId').innerHTML).toString();
-    var editedDescription = (document.getElementById('txtBodyId').innerHTML).toString();
+    var editedTitle = document.getElementById('txtTitleId');
+    var editedAuthor = document.getElementById('txtAuthorId');
+    var editedDescription = document.getElementById('txtBodyId');
 
-    console.log(editedTitle);
-    console.log(editedAuthor);
-    console.log(editedDescription);
+    var textTitle = editedTitle.value;
+    var textAuthor = editedAuthor.value;
+    var textDescription = editedDescription.value;
+
+    console.log(textTitle);
   
 
     var template = '<div class="title-container" id="title-details">'+
     '<h4 id="post-title">'+
-    editedTitle+
+    textTitle+
     '</h4>'+
     '</div>'+
     '<div class="author" id="author-details">'+
     '<h4 id="autr">'+
-    editedAuthor+
+    textAuthor+
     '</h4>'+
     '</div>'+
     '<div class="body-container" id="body-details">'+
     '<p id="desc">'+
-    editedDescription+
+    textDescription+
     '</p>'+
     '</div>';
 
