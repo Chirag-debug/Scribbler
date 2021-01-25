@@ -1,14 +1,12 @@
-.post-body {
+.main-post-container {
     background-color: white;
-    background-size: cover;
+    /* background-size: auto; */
     margin: 0% !important;
-    background-size: 100%;
-    overflow:hidden;
-    display: block;
+    /* background-size: 100%; */
+    /* display: block; */
     height: 100%;
-    overflow: scroll;
-}
 
+}
 
 
 .title-container {
@@ -18,6 +16,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     font-weight: bold;
+   
 }
 
 #post-title {
@@ -29,22 +28,25 @@
     color:#787a7d;
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;;
-    left: 6%;
+    left: 5.5%;
+    
 }
 .body-container {
-    position: relative;
-    top: 10px;
+    position: fixed;
+    top: 270px;
     color:#787a7d;
     left: 6%;
-    right: 16%;
+    right: 6%;
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 #commentText {
     position: relative;
     top: 240px;
     left: 6%;
+    
 }
 .comment-box {
     position: relative;
@@ -68,6 +70,7 @@
     top: 240px;
     left: 6%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 #listAllComments {
@@ -75,10 +78,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
+.editContainer {
+    right: 6%;
+    position: fixed;
+    top: 200px;
+}
 #editBtn {
-    position: relative;
-    top: 240px;
     background-color: #ed2553;
     box-shadow: 0px 5px 12px -4px #ed2553;
     color: white;
@@ -96,7 +101,7 @@
 .likeContainer {
     left: 6%;
     position: relative;
-    top: 230px
+    top: 220px
 }
 #like-btn {
     background-color: #ed2553;
@@ -111,6 +116,10 @@
     font-size: 14px;
     left: 6%;
     cursor: pointer;
+}
+.like-count-statement {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 

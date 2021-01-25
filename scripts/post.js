@@ -10,19 +10,18 @@ function postDynamic() {
     
     var template = '<div class="title-container">'+
     '<h4 id="post-title">'+
-    postTitle +
+    postTitle+
     '</h4>'+
     '</div>'+
-    '<div class="post-btn">'+
-    '<button id="edit-btn">Edit</button>'+
-    
-    '</div>'+
-    
-    '<div class="author" id="autr">'+
-    postAuthor +
+    '<div class="author">'+
+    '<h4 id="autr">'+
+    postAuthor+
+    '</h4>'+
     '</div>'+
     '<div class="body-container">'+
-    postDescription +
+    '<p>'+
+    postDescription+
+    '</p>'+
     '</div>';
 
     document.getElementById("post-details").innerHTML = template;

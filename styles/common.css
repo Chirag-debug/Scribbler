@@ -4,6 +4,7 @@ html {
 }
 .header-container {
   padding-bottom: 50px;
+  position: relative;
 }
 .header-buttons {
     right: 0.5%;
