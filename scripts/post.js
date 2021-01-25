@@ -64,7 +64,7 @@ function addComment(){
         updateContent();
       }
   }
-
+//adding edit funtionality
   function enableEdit(){
 
     var postTitle = (document.getElementById('post-title').innerHTML).toString();
