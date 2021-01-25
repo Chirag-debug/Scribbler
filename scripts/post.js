@@ -32,7 +32,7 @@ function addComment(){
   
     var txt = document.getElementById("commentText").value;
     
-    var element = '<p >'+ txt + '</p>';
+    var element = '<p id="commentBody">'+ txt + '</p>';
     var div = document.getElementById('listAllComments');
     div.innerHTML = element + div.innerHTML;
   }

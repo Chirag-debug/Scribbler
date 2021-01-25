@@ -32,8 +32,8 @@
     
 }
 .body-container {
-    position: fixed;
-    top: 270px;
+    position: relative;
+    
     color:#787a7d;
     left: 6%;
     right: 6%;
@@ -124,6 +124,20 @@
 #txtTitleId {
     width: 500px;
     left: 6%;
+}
+
+#listAllComments {
+    padding: 1px;
+    background-color: lightgrey;
+    width: 600px;
+    align-items: center;
+}
+
+#commentBody {
+    width: 600px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
