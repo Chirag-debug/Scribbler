@@ -121,6 +121,15 @@
     margin-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+#txtTitleId {
+    width: 500px;
+    left: 6%;
+}
+#txtAuthorId {
+    
+}
+#txtBodyId {
+    
+}
 
 

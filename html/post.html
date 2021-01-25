@@ -65,21 +65,21 @@
         <div class="main-post-container">
 
             <!-- Edit Section -->
-            <div class="editContainer">
-                <button id="editBtn" onclick="editPost()">Edit  <i class="fa fa-pencil-square-o" style="font-size:18px"></i> </button>
+            <div class="editContainer" id="editPost" onclick="editPost()">
+                <button id="editBtn" >Edit  <i class="fa fa-pencil-square-o" style="font-size:18px"></i> </button>
             </div>
 
             <!-- Post HTML Code for Dynamic fetching-->
             <div class="post-container" id="post-details">
-                <div class="title-container">
+                <div class="title-container" id="title-details">
                     <h4 id="post-title">Sample Title</h4>
                 </div>
-                <div class="author">
+                <div class="author" id="author-details">
                     <h4 id="autr">Chirag</h4>
                     
                 </div>
-                <div class="body-container">
-                    <p>Chirag's sample post</p>
+                <div class="body-container" id="body-details">
+                    <p id="desc">Chirag's sample post</p>
                 </div>
             </div>
 
