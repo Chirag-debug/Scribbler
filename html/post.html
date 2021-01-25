@@ -59,16 +59,13 @@
             </div>
         </div>
 
-        <!-- Post HTML Code-->
+        <!-- Post HTML Code for Dynamic fetching-->
 
         <div class="main-post-container">
 
             <div class="post-container" id="post-details">
                 <div class="title-container">
-                    <h2>Sample Title</h2>
-                </div>
-                <div class="post-btn">
-                    <button id="edit-btn">Edit <i class="fa fa-pencil-square-o" style="font-size:18px"></i> </button>
+                    <h2 id="post-title">Sample Title</h2>
                 </div>
                 <div class="author">
                     <h4 id="autr">Chirag</h4>
@@ -76,6 +73,12 @@
                 <div class="body-container">
                     <p>Chirag's sample post</p>
                 </div>
+            </div>
+
+            <!-- Edit Section -->
+
+            <div class="post-btn">
+                <button id="edit-btn">Edit <i class="fa fa-pencil-square-o" style="font-size:18px"></i> </button>
             </div>
 
             <!-- Like Section-->
@@ -86,7 +89,7 @@
                         <i class="fa fa-thumbs-up" style="font-size:15px"><span style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> Like</span></i>
                     </button>
                 </div>
-                <div class="like-count-statement">
+                <div class="like-count-statement"> <span id="likeCount">1</span> person likes this!
     
                 </div>
             </div>
@@ -103,9 +106,6 @@
                     
                 </div>
             </div>
-        
-      
-    
 
         <!-- Java Scripts -->
         <script src="..\scripts\common.js"></script>
