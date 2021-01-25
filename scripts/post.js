@@ -45,4 +45,8 @@ function addComment(){
       div.innerHTML = newCount;
   }
 
+  function editPost() {
+      
+  }
+
 
