@@ -35,8 +35,8 @@
     position: relative;
     
     color:#787a7d;
-    left: 6%;
-    right: 6%;
+    left: 5.5%;
+    width: 1200px;
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
@@ -79,9 +79,9 @@
 
 }
 .editContainer {
-    right: 6%;
-    position: fixed;
-    top: 200px;
+    right: -85%;
+    position: relative;
+    top: 130px;
 }
 #editBtn {
     background-color: #ed2553;
@@ -95,7 +95,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     font-weight: bold;
-    left: 6%;
+    /* left: 6%; */
     cursor: pointer;
 }
 .likeContainer {
